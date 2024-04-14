@@ -1,5 +1,5 @@
 #ifndef __POLICY_CLASS_H__
-#define __POLICY_CLASS_H__ 
+#define __POLICY_CLASS_H__
 
 typedef struct {
     void (*fooo)(void);
@@ -11,8 +11,9 @@ typedef struct {
 typedef struct {
     // i-face
     policy_II II;
+#if !defined(POLICY_ENA)
 
-#if POLICY_ENA == 1
+#elif POLICY_ENA == 1
     double a;
 #elif POLICY_ENA == 2
     int b;

@@ -42,4 +42,3 @@ void policy_use_3(void* self)
 
     fflush(stdout);
 }
-

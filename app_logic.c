@@ -2,6 +2,7 @@
 #include "policy_use_3.h"
 #include "policy_use_2.h"
 #include "policy_class.h"
+#include "policy.h"
 
 #include <stdio.h>
 
@@ -25,5 +26,7 @@ void app_main()
 
     //printf("app_main: fooo_fill address = %d\t\n\n", (unsigned int)dta_3.fooo_fill);
 
+    policy2->II.fooo();
+    fooo();
     fflush(stdout);
 }
