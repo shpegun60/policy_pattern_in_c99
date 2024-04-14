@@ -28,8 +28,8 @@ void app_main()
 
     policy2->II.fooo();
 
-    // nie wolno tak robic kurwo!!!!
-    fooo(); //output w dupie cie mam kurwo!!!
+    // nie wolno tak robić kurwo!!!! Proszę tego nie dotykać
+    fooo(); // no, teraz masz output: w dupie cie mam kurwo!!!
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
