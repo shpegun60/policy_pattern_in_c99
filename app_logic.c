@@ -27,6 +27,11 @@ void app_main()
     //printf("app_main: fooo_fill address = %d\t\n\n", (unsigned int)dta_3.fooo_fill);
 
     policy2->II.fooo();
-    fooo();
+
+    // nie wolno tak robic kurwo!!!!
+    fooo(); //output w dupie cie mam kurwo!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
     fflush(stdout);
 }
